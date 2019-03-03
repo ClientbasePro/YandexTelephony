@@ -1,6 +1,6 @@
 {
-	"name":"ClientbasePro/YandexTelephony",
-	"description":"Интеграция CRM Clientbase с Яндекс.Телефонией",
+	"name":"ClientbasePro/MegafonVPBX",
+	"description":"Интеграция CRM Clientbase с Виртуальной АТС Мегафон",
 	"license":"MIT",
 	"authors": [
 		{
@@ -18,8 +18,8 @@
 	},
 	"autoload":{
 		"psr-4":{
-			"ClientbasePro\\": "YandexTelephony/"
+			"ClientbasePro\\": "MegafonVPBX/"
 		},
-		"files": ["YandexTelephonyFunctions.php"]
+		"files": ["MegafonVPBXFunctions.php"]
     }
 }
